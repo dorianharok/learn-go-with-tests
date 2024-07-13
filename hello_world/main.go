@@ -29,6 +29,4 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
-func main() {
-
-}
+func main() {}
