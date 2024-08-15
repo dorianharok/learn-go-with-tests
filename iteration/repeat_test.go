@@ -16,3 +16,9 @@ func BenchmarkRepeat(b *testing.B) {
 		Repeat("a")
 	}
 }
+
+func BenchmarkRepeat2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Repeat2("a")
+	}
+}
